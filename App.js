@@ -9,8 +9,6 @@
 import React from 'react';
 import {StyleSheet, Text, View} from 'react-native';
 
-import {Colors} from 'react-native/Libraries/NewAppScreen';
-
 const App: () => React$Node = () => {
   return (
     <View style={styles.container}>
@@ -22,9 +20,9 @@ const App: () => React$Node = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: "center",
-    alignItems: 'center'
-  }
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
 });
 
 export default App;
